@@ -27,6 +27,8 @@ I love solving real-world problems using AI and enjoy exploring the latest advan
 
 ---
 Let's connect and grow together! 🚀
+
+## Projects
 1. Survival_Rate_Pred_using_ML_models.ipynb
 Implemented various machine learning models to predict survival rates based on input features. Includes preprocessing, model training, and performance evaluation using metrics like accuracy and confusion matrix.
 
