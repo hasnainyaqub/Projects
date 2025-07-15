@@ -1,82 +1,67 @@
-# 👋 Hi there! I'm Hasnain Yaqoob
+# Data Science and Machine Learning Projects
 
-## 👀 About Me  
-I'm a passionate Data Science enthusiast, currently enrolled in a **6-Months Data Science and AI Mentorship Program** at [Codanics.com](https://codanics.com). I love exploring data, building intelligent models, and creating impactful visualizations that tell compelling stories.
+This repository contains a collection of beginner to intermediate-level Data Science and Machine Learning projects. The projects are implemented using Python, Pandas, Scikit-learn, TensorFlow, and other popular libraries. Each project focuses on solving real-world problems using data analysis, visualization, and machine learning techniques.
 
----
+## Repository Structure
 
-## 🚀 What I'm Learning
-- **Python** for data analysis & automation  
-- **Pandas & NumPy** for data manipulation  
-- **Data Visualization** with Seaborn, Matplotlib & Plotly  
-- **Machine Learning & Deep Learning** using Scikit-learn, TensorFlow & PyTorch  
-- **Time Series Analysis** & **Generative AI**  
-- **Web Development** with Flask & FastAPI  
-- **Databases & BI Tools**: SQL, Power BI, Tableau  
+- **Digit_Recognizer.ipynb**  
+  Handwritten digit recognition using machine learning models.
 
----
+- **E-commerce_data_analysis.ipynb**  
+  Exploratory data analysis of e-commerce datasets to uncover business insights.
 
-## 💡 What I'm Looking For
-- Open-source collaborations in **Data Science** & **AI**  
-- Projects in **ML/DL**, especially **Time Series** & **Generative AI**  
-- Research or internship opportunities in **Artificial Intelligence**
+- **Email_spam_classifier.ipynb**  
+  A machine learning model to classify emails as spam or not spam.
 
----
+- **Plant_Pathology_2020_FGVC7_Project.ipynb**  
+  Plant disease classification using deep learning techniques.
 
-## 📫 Let's Connect!
-- 🔗 **GitHub**: [Hasnain Yaqoob](https://github.com/hasnainyaqub)  
-- 🔗 **LinkedIn**: [Hasnain Yaqoob](https://www.linkedin.com/in/hasnain-yaqoob-16baa8337/)  
-- 📧 **Email**: hasnainyaqubakm@gmail.com  
+- **Rice_Disease_classification.ipynb**  
+  Rice disease detection using machine learning and image processing.
 
----
+- **Survival_Rate_Pred_using_ML_models.ipynb**  
+  Predicting survival rates using various machine learning algorithms.
 
-## 🌱 Fun Fact  
-I enjoy solving real-world problems through AI and continuously exploring new frontiers in machine learning!
+- **heart_disease_project.ipynb**  
+  Predicting heart disease presence based on patient data.
 
----
+- **sales-price-prediction-using-ml-xgb.ipynb**  
+  Sales price prediction using machine learning models, including XGBoost.
 
-## 📂 Projects
+## Technologies Used
 
-### 1. 🛟 Survival Rate Prediction using ML Models  
-**File:** `Survival_Rate_Pred_using_ML_models.ipynb`  
-Applied multiple machine learning models to predict survival rates based on various input features. The workflow includes data preprocessing, training, and evaluation using accuracy, confusion matrix, and classification metrics.
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- TensorFlow  
+- Matplotlib  
+- Seaborn
 
----
+## Features
 
-### 2. 💰 Sales Price Prediction using XGBoost  
-**File:** `sales-price-prediction-using-ml-xgb.ipynb`  
-Built a regression model using XGBoost for accurate sales price prediction. Included feature engineering, hyperparameter tuning, and visual analysis of feature importance.
+- Real-world datasets  
+- Jupyter Notebooks with step-by-step explanations  
+- Projects focused on both classification and regression problems  
+- Data analysis and visualization included in multiple projects
 
----
+## Getting Started
 
-### 3. 🌾 Rice Disease Classification  
-**File:** `Rice_Disease_classification.ipynb`  
-Developed a deep learning model using CNNs to detect rice plant diseases. Achieved high performance using evaluation metrics such as precision, recall, and F1-score.
+1. Clone this repository:
 
----
+`git clone https://github.com/hasnainyaqub/Projects.git`
+`jupyter notebook filename.ipynb`  
+`pip install pandas numpy scikit-learn tensorflow matplotlib seaborn`  
 
-### 4. 🍃 Plant Pathology - Kaggle Competition  
-**File:** `Plant_Pathology_2020_FGVC7_Project.ipynb`  
-Participated in a Kaggle challenge to classify plant leaf diseases. Utilized transfer learning for improved accuracy in multi-class classification.
+## Note
+
+This repository is created for personal learning and project practice. I will continue to update and add new projects as I learn more.
 
 ---
 
-### 5. 🛒 E-commerce Data Analysis  
-**File:** `E-commerce_data_analysis.ipynb`  
-Conducted exploratory data analysis (EDA) on e-commerce data to uncover sales patterns, customer behavior, and product insights. Used visualizations and summary statistics for business understanding.
+### Feel free to explore the notebooks and connect if you're interested in collaboration or feedback. Let's grow together in the world of Data Science! 
+## Connect with Me
 
----
-
-### 6. 🔢 Digit Recognizer (MNIST Dataset)  
-**File:** `Digit_Recognizer.ipynb`  
-Implemented a CNN in Keras for handwritten digit recognition using the MNIST dataset. Achieved high accuracy in classifying digits from 0 to 9.
-
----
-
-### 7. ❤️ Heart Disease Prediction  
-**File:** `heart_disease_project.ipynb`  
-Built and compared ML classification models to predict heart disease based on patient data. Visualized key health features influencing predictions.
-
----
-
-Feel free to explore the notebooks and connect if you're interested in collaboration or feedback. Let's grow together in the world of Data Science! 🚀
+- LinkedIn: [https://www.linkedin.com/in/hasnain-yaqoob-](https://www.linkedin.com/in/hasnain-yaqoob-)
+- GitHub: [https://github.com/hasnainyaqub](https://github.com/hasnainyaqub)
+- Kaggle: [https://www.kaggle.com/hasnainyaqooob](https://www.kaggle.com/hasnainyaqooob)
