@@ -27,6 +27,8 @@ This repository contains a collection of beginner to intermediate-level Data Sci
 
 - **sales-price-prediction-using-ml-xgb.ipynb**  
   Sales price prediction using machine learning models, including XGBoost.
+  
+- **Other...**
 
 ## Technologies Used
 
