@@ -64,6 +64,7 @@ This repository is created for personal learning and project practice. I will co
 ### Feel free to explore the notebooks and connect if you're interested in collaboration or feedback. Let's grow together in the world of Data Science! 
 ## Connect with Me
 
-- LinkedIn: [https://www.linkedin.com/in/hasnainyaqoob](https://www.linkedin.com/in/hasnainyaqoob)
-- GitHub: [https://github.com/hasnainyaqub](https://github.com/hasnainyaqub)
-- Kaggle: [https://www.kaggle.com/hasnainyaqooob](https://www.kaggle.com/hasnainyaqooob)
+-  [**LinkedIn**](https://www.linkedin.com/in/hasnainyaqoob)
+-  [**GitHub**](https://github.com/hasnainyaqub)
+- [**Kaggle**](https://www.kaggle.com/hasnainyaqooob)
+
