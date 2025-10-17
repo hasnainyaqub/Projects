@@ -1,0 +1,28 @@
+Collecting nbformat
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting fastjsonschema>=2.15 (from nbformat)
+  Downloading fastjsonschema-2.21.2-py3-none-any.whl.metadata (2.3 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Using cached jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /home/dark/miniconda3/envs/dl_env/lib/python3.11/site-packages (from nbformat) (5.8.1)
+Requirement already satisfied: traitlets>=5.1 in /home/dark/miniconda3/envs/dl_env/lib/python3.11/site-packages (from nbformat) (5.14.3)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Using cached attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Using cached referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Downloading rpds_py-0.27.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Requirement already satisfied: platformdirs>=2.5 in /home/dark/miniconda3/envs/dl_env/lib/python3.11/site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.4.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /home/dark/miniconda3/envs/dl_env/lib/python3.11/site-packages (from referencing>=0.28.4->jsonschema>=2.6->nbformat) (4.12.2)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+Downloading fastjsonschema-2.21.2-py3-none-any.whl (24 kB)
+Using cached jsonschema-4.25.1-py3-none-any.whl (90 kB)
+Using cached attrs-25.3.0-py3-none-any.whl (63 kB)
+Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Using cached referencing-0.36.2-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.27.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (384 kB)
+Installing collected packages: fastjsonschema, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+[?25l[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m5/7[0m [jsonschema][2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7/7[0m [nbformat]
+[?25h[1A[2KSuccessfully installed attrs-25.3.0 fastjsonschema-2.21.2 jsonschema-4.25.1 jsonschema-specifications-2025.9.1 nbformat-5.10.4 referencing-0.36.2 rpds-py-0.27.1
