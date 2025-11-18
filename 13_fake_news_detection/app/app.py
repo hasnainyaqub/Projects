@@ -1,12 +1,15 @@
 import streamlit as st
 import re
-import pickle
+from joblib import load
 
 # -------------------------------
 # Load Model and Vectorizer
 # -------------------------------
-model = pickle.load(open("model.pkl", "rb"))
-vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+
+
+model = load("logistic_regression_model.joblib")
+vectorizer = load("tfidf_vectorizer.joblib")
+
 
 # -------------------------------
 # Core Python Preprocessing Function
@@ -59,11 +62,12 @@ if st.button("Predict"):
         # Display result
         if prediction == 1:
             st.success(f"✅ This news looks **REAL** (confidence: {prob[1]*100:.2f}%)")
-        else:
+        elif prediction == 0:
             st.error(f"🚨 This news looks **FAKE** (confidence: {prob[0]*100:.2f}%)")
-
+        else:
+            st.info("Unable to determine the authenticity of the news.")
 # -------------------------------
 # Footer
 # -------------------------------
 st.markdown("---")
-st.markdown("**Developed by [Your Name] | Fake News Detection using Machine Learning**")
+st.markdown("**Developed by Hasnain Yaqoob | Fake News Detection using Machine Learning**")
