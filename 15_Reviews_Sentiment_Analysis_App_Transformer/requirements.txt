@@ -1,6 +1,7 @@
 streamlit
-torch==2.1.2
 transformers==4.38.2
-numpy
-sentencepiece
+torch==2.1.2
+numpy==1.26.4
 pandas
+sentencepiece
+--extra-index-url https://download.pytorch.org/whl/cpu
