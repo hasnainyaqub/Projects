@@ -3,7 +3,9 @@ import pandas as pd
 from transformers import pipeline
 import os
 
-sentiment_pipe = pipeline("sentiment-analysis")
+sentiment_pipe = pipeline( task="sentiment-analysis",
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    framework="pt")
 FILE_PATH = "reviews.csv"
 
 # Load previous reviews or create empty file
@@ -37,6 +39,9 @@ if menu == "Sentiment Checker":
         else:
             st.warning("Enter some text first")
 
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align:center;'> Developed by Hasnain Yaqoob | Sentiment Analysis App using Transformers </p>", unsafe_allow_html=True)
+
 elif menu == "Reviews Page":
     st.subheader("Submit a Review")
 
@@ -69,3 +74,20 @@ elif menu == "Reviews Page":
         negative = df[df["sentiment"] == "NEGATIVE"]
         for _, row in negative.iterrows():
             st.write(f"[-] {row['review']}")
+
+
+    
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align:center;'> Developed by Hasnain Yaqoob | Sentiment Analysis On Reviews </p>", unsafe_allow_html=True)        
+
+# sidebar in footer
+st.sidebar.markdown(
+    """
+
+    🌐 **Connect with Me**  
+    [LinkedIn](https://www.linkedin.com/in/hasnainyaqoob)  
+    [GitHub](https://github.com/hasnainyaqub)  
+    [Kaggle](https://www.kaggle.com/hasnainyaqooob)
+    """
+)
+
