@@ -3,5 +3,6 @@ transformers==4.38.2
 torch==2.1.2
 numpy==1.26.4
 pandas
+plotly
 sentencepiece
 --extra-index-url https://download.pytorch.org/whl/cpu
