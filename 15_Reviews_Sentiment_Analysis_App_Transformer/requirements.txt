@@ -1,5 +1,6 @@
 streamlit
 torch==2.1.2
-transformers==4.38.2
+transformers==4.38.2\
+numpy
 sentencepiece
 pandas
