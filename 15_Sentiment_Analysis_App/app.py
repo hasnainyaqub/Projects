@@ -9,7 +9,8 @@ st.set_page_config(page_title="Sentiment Analyzer", layout="wide")
 
 sentiment_pipe = pipeline(
     task="sentiment-analysis",
-    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+     framework="pt"
 )
 
 FILE_PATH = "reviews.csv"
