@@ -3,9 +3,15 @@ import pandas as pd
 from transformers import pipeline
 import os
 
+
 st.set_page_config(page_title="Sentiment Analyzer", layout="wide")
 
-sentiment_pipe = pipeline("sentiment-analysis", framework="tf")
+
+sentiment_pipe = pipeline(
+    task="sentiment-analysis",
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+)
+
 FILE_PATH = "reviews.csv"
 
 # Load CSV or create it

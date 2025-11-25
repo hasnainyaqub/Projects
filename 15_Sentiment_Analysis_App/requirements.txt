@@ -3,4 +3,3 @@ transformers
 torch
 sentencepiece
 pandas
-tensorflow
