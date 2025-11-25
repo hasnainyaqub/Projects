@@ -2,3 +2,4 @@ streamlit
 transformers
 torch
 sentencepiece
+pandas
