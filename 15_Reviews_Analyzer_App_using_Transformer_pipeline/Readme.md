@@ -1,4 +1,4 @@
-# ⭐ Sentiment Analysis App using Transformers and Streamlit
+# ⭐ [Sentiment Analysis App using Transformers and Streamlit]()
 
 A simple and interactive web application that analyzes text sentiment and allows users to submit reviews.  
 The app uses **Hugging Face Transformers** for sentiment analysis and **Streamlit** for a smooth interface.
@@ -27,11 +27,11 @@ Styled interface with colored results, background themes, and a custom footer.
 ## 📂 Project Structure
 ```
 📁 Sentiment_Analysis_App
-│── app.ipynb
 │── app.py
-│── reviews.csv
-│── requirements.txt
+│── Notebook.ipynb
 │── README.md
+│── requirements.txt
+│── reviews.csv
 ```
 
 ---
@@ -46,31 +46,14 @@ Styled interface with colored results, background themes, and a custom footer.
 
 ---
 
-## 🚀 Installation and Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/Sentiment_Analysis_App.git
-cd Sentiment_Analysis_App
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Streamlit app
-```bash
-streamlit run app.py
-```
 
 ---
 
 ## 🖼 Demo Screenshots
-(Add your images here later)
 
-![Sentiment Checker](images/sentiment_checker.png)  
-![Reviews Page](images/reviews_page.png)
+![Sentiment Checker](review_checker.png)  
+![Reviews Page](reviews_sub.png)
+
 
 ---
 
@@ -79,20 +62,6 @@ streamlit run app.py
 - User enters text, and the model predicts **positive** or **negative**.  
 - In the Reviews Page, user reviews are saved in a CSV file.  
 - Submitted reviews are displayed under two columns based on their sentiment.
-
----
-
-## 📄 Requirements
-Example:
-```
-streamlit
-transformers==4.38.2
-torch==2.1.2
-numpy==1.26.4
-pandas
-sentencepiece
---extra-index-url https://download.pytorch.org/whl/cpu
-```
 
 ---
 
