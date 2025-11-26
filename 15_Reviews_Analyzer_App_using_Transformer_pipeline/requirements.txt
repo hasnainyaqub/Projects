@@ -1,9 +1,9 @@
+python==3.11
 streamlit
 transformers==4.38.2
 torch==2.1.2
 numpy==1.26.4
-Numpy 
 pandas
 plotly
 sentencepiece
-# --extra-index-url https://download.pytorch.org/whl/cpu
+
