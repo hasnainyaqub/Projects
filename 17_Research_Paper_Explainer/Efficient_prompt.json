@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou explain research papers clearly and accurately.\n\nWrite an explanation of the paper \"{paper_input}\" using the selected options:\n\u2022 Style: {style_input}\n\u2022 Length: {length_input}\n\nGuidelines:\n- Match the tone and depth to the selected style.\n- Keep the explanation within the chosen length.\n- If the style is \"Code-Oriented\", include simple pseudocode where helpful.\n- If the style is \"Mathematical\", describe formulas and intuition clearly.\n- If the paper lacks information needed for a section, state: \"Insufficient information available.\"\n- Avoid adding details that are not supported by the original paper.\n\nNow provide the explanation.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
